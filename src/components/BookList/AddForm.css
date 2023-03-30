@@ -1,0 +1,85 @@
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ffc107!important;
+    border-color: #ffc107!important;
+
+}
+
+.btn-block {
+    display: block;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color:#212529
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top-width: 1px;
+  border-top-style:solid ;
+  border-top-color:#dee2e6
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom-width: 2px
+}
+
+.table tbody+tbody {
+  border-top-width:2px ;
+  border-top-style:solid ;
+  border-top-color:#dee2e6
+}
+
+
+.the-whole-thing{
+    margin: 100px;
+}
+
+
+.btn btn-warning btn-block add-btn{
+    display: inline-block;
+    justify-content: center;
+}
